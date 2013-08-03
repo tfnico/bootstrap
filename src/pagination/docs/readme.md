@@ -1,4 +1,3 @@
-
 A lightweight pagination directive that is focused on ... providing pagination & will take care of visualising a pagination bar and enable / disable buttons correctly!
 
 ### Pagination Settings ###
@@ -65,3 +64,5 @@ For `num-pages`,  `current-page` and `on-select-page (page)` see pagination sett
  * `next-text`
  	_(Default: 'Next »')_ :
  	Text for Next button.
+
+You may also want to add some custom styles to the pagination elements, as discussed in [issue 627](https://github.com/angular-ui/bootstrap/issues/627).
