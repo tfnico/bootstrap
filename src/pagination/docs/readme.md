@@ -65,4 +65,25 @@ For `num-pages`,  `current-page` and `on-select-page (page)` see pagination sett
  	_(Default: 'Next »')_ :
  	Text for Next button.
 
-You may also want to add some custom styles to the pagination elements, as discussed in [issue 627](https://github.com/angular-ui/bootstrap/issues/627).
+### Styling ###
+
+
+You may also want to add some custom styles to the pagination elements:
+
+    .pagination {
+      cursor:pointer;
+
+      text-align: center;
+      -webkit-user-select: none; /* Chrome/Safari */
+      -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* IE10+ */
+
+      /* Rules below not implemented in browsers yet */
+      -o-user-select: none;
+      user-select: none;
+    }
+
+The above example will:
+
+* Switch the curser to pointer-mode while hovering over page numbers
+* Disable text selection
